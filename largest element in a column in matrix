@@ -19,12 +19,12 @@ int a[i][j]=new int[][];
 }
 for(i=0;i<r;i++)
 {
-l=[0][i]
+l=a[0][i];
 for(j=0;j<r;j++)
 {
 if(l<a[j][i])
 {
-l=[j][i];
+l=a[j][i];
 }
 System.out.println("The largest element in column" + i +"is" +l);
 }
